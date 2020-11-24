@@ -13,5 +13,8 @@ def Calculator(): #Use this in IDLE
         print('Answer:', Num1/Num2)
     elif SIGN == '^':
         print('Answer:', Num1**Num2)
+    elif SIGN == '//':
+        print('Answer:', Num1//Num2)
+        
     else:
         print('Please Enter a Proper Sign!!!')
