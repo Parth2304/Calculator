@@ -1,0 +1,17 @@
+def Calculator(): #Use this in IDLE 
+    Num1 = int(input("Enter First Value: "))
+    Num2 = int(input("Enter Second Value: "))
+    Sign = input("Enter Sign: ")
+    SIGN = Sign.upper()
+    if SIGN == 'X':
+        print('Answer:', Num1*Num2)
+    elif SIGN == '+':
+        print('Answer:', Num1+Num2)
+    elif SIGN == '-':
+        print('Answer:', Num1-Num2)
+    elif SIGN == '/':
+        print('Answer:', Num1/Num2)
+    elif SIGN == '^':
+        print('Answer:', Num1**Num2)
+    else:
+        print('Please Enter a Proper Sign!!!')
